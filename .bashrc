@@ -11,4 +11,4 @@ alias gitb="git checkout -b"
 alias gitu="sh $THIS_DIR/update"
 alias gitm="git merge"
 alias gitch="git checkout"
-
+alias gitad="gita \$(gitd --name-only)"

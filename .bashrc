@@ -44,3 +44,6 @@ alias gitu="sh $THIS_DIR/update"
 alias gitm="git merge"
 
 alias gitch="git checkout"
+
+alias gitsq="sh $THIS_DIR/squash"
+

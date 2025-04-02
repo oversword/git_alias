@@ -1,6 +1,6 @@
 
 OLD_DIR=`pwd`
-THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+THIS_DIR="$( cd "$( dirname "$0" )" && pwd )"
 cd $OLD_DIR
 
 GITHELP='
@@ -51,3 +51,6 @@ alias gitu="sh $THIS_DIR/update"
 alias gitm="git merge"
 
 alias gitch="git checkout"
+
+alias gitsq="sh $THIS_DIR/squash"
+
